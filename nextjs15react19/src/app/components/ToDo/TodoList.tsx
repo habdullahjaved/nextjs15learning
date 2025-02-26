@@ -26,6 +26,13 @@ const TodoList: React.FC<TodoListProps> = ({ todos, onToggle, onDelete }) => {
             >
               Delete
             </button>
+
+            <button
+              onClick={() => onDelete(todo.id)}
+              className="text-red-500 hover:text-red-700"
+            >
+              Delete
+            </button>
           </div>
         </li>
       ))}
