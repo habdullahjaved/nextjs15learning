@@ -1,0 +1,56 @@
+{
+  "status": 1,
+  "cart": {
+    "id": 3,
+    "uuid": "6207ff83-dccb-4660-aaf9-82b8bc6ccad9",
+    "user_id": null,
+    "ip_address": "::1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+    "cart_data": null,
+    "status": 1,
+    "expires_at": "2025-03-12 09:31:06",
+    "created_at": "2025-03-05T09:31:06.000000Z",
+    "updated_at": "2025-03-05T09:31:06.000000Z",
+    "cartItems": [
+      {
+        "id": 1,
+        "cart_id": 3,
+        "tour_id": 60,
+        "package_id": 7,
+        "timeslot_id": 4,
+        "quantity": 1,
+        "total_price": "90.00",
+        "tour": {
+          "id": 60,
+          "title": "Tour test 1",
+          "description": "<p>Test Test</p>",
+          "package": {
+            "id": 7,
+            "tour_id": 60,
+            "title": "Dubai City Tour Half Day Shared Basis",
+            "timeslot": {
+              "id": 4,
+              "time": "04:15-05:15",
+              "package_pricings": [
+                {
+                  "timeslot_id": 4,
+                  "pax_type_id": 1,
+                  "base_price": "90.0000",
+                  "discount": "0.0000",
+                  "discounted_price": "90.0000"
+                },
+                {
+                  "timeslot_id": 4,
+                  "pax_type_id": 2,
+                  "base_price": "80.0000",
+                  "discount": "0.0000",
+                  "discounted_price": "80.0000"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

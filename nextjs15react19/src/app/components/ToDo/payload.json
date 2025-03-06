@@ -1,0 +1,279 @@
+{
+  "uuid": "b20ebf57-5fba-4e05-911e-bc787ad9d225",
+  "items": {
+    "uuid": "b879d9f3-e272-44e1-aeae-0eb2992ee676",
+    "tour": {
+      "uuid": "b7b56e55-97eb-4e94-93d5-545307ac1bee",
+      "name": "The View At The Palm",
+      "permalink": "the-view-at-the-palm-tickets-offer",
+      "currency_code": "AED",
+      "currency_rate": "4.61759100",
+      "price": "0.0000",
+      "tax": [
+        {
+          "id": 1,
+          "title": "UAE Tax",
+          "tax_rules": [
+            {
+              "id": 3,
+              "priority": 2,
+              "tax_rate": {
+                "id": 1,
+                "name": "VAT 5%",
+                "rate": "5.00000000",
+                "type": "Percentage"
+              },
+              "tax_rate_id": 1,
+              "tax_class_id": 1
+            }
+          ],
+          "country_id": 231,
+          "description": "UAE Tax",
+          "country_name": "United Arab Emirates"
+        }
+      ],
+      "max_capacity": 50,
+      "featured_image": "https://api.jtrholidays.com/storage/274/836*450.jpg",
+      "featured_image_thumb": "https://api.jtrholidays.com/storage/274/conversions/836*450-thumb.webp",
+      "has_terms_conditions": false,
+      "has_inventory": false,
+      "approval_required": true,
+      "activity_type": "tour",
+      "tourUtcOffset": "+04:00"
+    },
+    "widgets": [
+      {
+        "id": 74,
+        "uuid": "93d095b4-85e5-4ea1-8e78-b6c17adf2188",
+        "name": "Calendar",
+        "system_name": "Calendar",
+        "settings": {
+          "id": "93d095b4-85e5-4ea1-8e78-b6c17adf2188",
+          "max": null,
+          "min": null,
+          "type": "date",
+          "uuid": "93d095b4-85e5-4ea1-8e78-b6c17adf2188",
+          "label": { "en": "Select a Date" },
+          "price": null,
+          "value": "2025-02-25T11:03:30.311Z",
+          "label2": { "en": "Activity Date" },
+          "fieldId": null,
+          "maxDate": null,
+          "minDate": 0,
+          "minHours": null,
+          "show_price": false,
+          "defaultDate": 0,
+          "footer_note": { "en": null },
+          "is_required": false,
+          "is_price_included": false
+        },
+        "status": 1,
+        "value": "2025-03-28",
+        "discountPrice": 0,
+        "seperatePrice": 0
+      },
+      {
+        "id": 75,
+        "uuid": "bf63af03-13da-4d7d-88a2-b60fa8aab692",
+        "name": "Number",
+        "system_name": "Number",
+        "settings": {
+          "id": "bf63af03-13da-4d7d-88a2-b60fa8aab692",
+          "max": 100,
+          "min": 1,
+          "uuid": "bf63af03-13da-4d7d-88a2-b60fa8aab692",
+          "label": { "en": "Adult" },
+          "value": 1,
+          "label2": { "en": "Adult" },
+          "fieldId": null,
+          "discount": 5,
+          "supplier": "f70bf9d0-db93-4f1c-9e9c-ac8cf6908c67",
+          "suppliers": [],
+          "label_note": [],
+          "is_required": true,
+          "discountType": null,
+          "discountPrice": 95,
+          "is_price_included": false,
+          "showCalendarArray": false,
+          "price": 100,
+          "quantity": 1
+        },
+        "status": 1,
+        "value": 1,
+        "price": 100,
+        "discountPrice": 95,
+        "discount": 5,
+        "discountType": null,
+        "seperatePrice": 0,
+        "quantity": 1,
+        "supplier": "f70bf9d0-db93-4f1c-9e9c-ac8cf6908c67"
+      },
+      {
+        "id": 76,
+        "uuid": "b3a6373f-bbf0-4070-8544-9075d5d4026d",
+        "name": "Number",
+        "system_name": "Number",
+        "settings": {
+          "id": "b3a6373f-bbf0-4070-8544-9075d5d4026d",
+          "max": 50,
+          "min": 0,
+          "uuid": "b3a6373f-bbf0-4070-8544-9075d5d4026d",
+          "label": { "en": "Child (4-12)" },
+          "value": 0,
+          "label2": { "en": "Child (4-12)" },
+          "fieldId": null,
+          "discount": 4,
+          "supplier": "cab4118a-354b-44dd-9e13-9a20962b78da",
+          "suppliers": [],
+          "label_note": [],
+          "is_required": false,
+          "discountType": null,
+          "calendarArray": { "disabledDates": [], "availableDates": [] },
+          "discountPrice": 65,
+          "is_price_included": false,
+          "showCalendarArray": false,
+          "price": 69,
+          "quantity": 0
+        },
+        "status": 1,
+        "value": 0,
+        "price": 69,
+        "discountPrice": 65,
+        "discount": 4,
+        "discountType": null,
+        "seperatePrice": 0,
+        "quantity": 0,
+        "supplier": "cab4118a-354b-44dd-9e13-9a20962b78da"
+      },
+      {
+        "id": 77,
+        "uuid": "cebfe264-6c8b-4129-a24d-907874e3c549",
+        "name": "Tour Options",
+        "system_name": "TourOptions",
+        "settings": {
+          "id": "cebfe264-6c8b-4129-a24d-907874e3c549",
+          "uuid": "cebfe264-6c8b-4129-a24d-907874e3c549",
+          "options": [
+            {
+              "uuid": "137c8b38-c80b-49c8-8169-16f5016b48bf",
+              "label": {
+                "ar": null,
+                "cn": null,
+                "en": "View at The Palm - General Admission - Non Prime Hours",
+                "ru": null
+              },
+              "is_default": true,
+              "option_ref": null,
+              "orderNumber": 2,
+              "show_on_frontend": true
+            }
+          ],
+          "show_on_frontend": true
+        },
+        "status": 1,
+        "value": "137c8b38-c80b-49c8-8169-16f5016b48bf",
+        "discountPrice": 0,
+        "seperatePrice": 0
+      },
+      {
+        "id": 159,
+        "uuid": "bb396b28-d3b3-44c0-9f7e-dac92759b423",
+        "name": "Private Transport",
+        "system_name": "PrivateTransport",
+        "settings": {
+          "id": "bb396b28-d3b3-44c0-9f7e-dac92759b423",
+          "note": [],
+          "uuid": "bb396b28-d3b3-44c0-9f7e-dac92759b423",
+          "label": { "en": "Private Two-Way Transportation" },
+          "price": null,
+          "value": null,
+          "vehicles": [
+            {
+              "cost": null,
+              "image": null,
+              "label": { "en": "Sedan/Minivan" },
+              "price": 350,
+              "capacity": 6,
+              "supplier": null,
+              "suppliers": []
+            },
+            {
+              "cost": null,
+              "image": null,
+              "label": { "en": "Mini Bus" },
+              "price": 650,
+              "capacity": 12,
+              "supplier": null,
+              "suppliers": []
+            },
+            {
+              "cost": null,
+              "image": null,
+              "label": { "en": "Bus 30 Seater" },
+              "price": 1050,
+              "capacity": 30,
+              "supplier": null,
+              "suppliers": []
+            },
+            {
+              "cost": null,
+              "image": null,
+              "label": { "en": "Bus 50 Seater" },
+              "price": 1250,
+              "capacity": 50,
+              "supplier": null,
+              "suppliers": []
+            }
+          ],
+          "is_required": false,
+          "is_selected": 0,
+          "showVehicles": false,
+          "showPickupTime": false,
+          "is_price_included": false,
+          "pickupLocationLabel": {
+            "ar": "Pickup Location",
+            "cn": "Pickup Location",
+            "en": "Pickup within Dubai city hotels",
+            "ru": "Pickup Location"
+          },
+          "vehicleIndividualSelection": false
+        },
+        "status": 1,
+        "value": {},
+        "price": 0,
+        "discountPrice": 0,
+        "seperatePrice": 0,
+        "quantity": 0
+      },
+      {
+        "id": 537,
+        "uuid": "df1e9bc3-944f-4a0e-8949-555c51005b06",
+        "name": "Time Slot",
+        "system_name": "TimeSlot",
+        "settings": {
+          "min": 0,
+          "uuid": "df1e9bc3-944f-4a0e-8949-555c51005b06",
+          "label": { "en": "Time" },
+          "value": null,
+          "format": "24hours",
+          "label2": { "en": "Time" },
+          "fieldId": null,
+          "show_range": false,
+          "defaultTime": null,
+          "is_required": false,
+          "show_dropdown": false
+        },
+        "status": 1,
+        "value": "13:30",
+        "discountPrice": 0,
+        "seperatePrice": 0
+      }
+    ],
+    "transportData": null,
+    "totalPrice": 95,
+    "cartVat": null,
+    "itemExpiryDateTime": "2025-03-28 13:30:00",
+    "totalPax": 1
+  },
+  "totalPrice": 95
+}

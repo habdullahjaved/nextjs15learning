@@ -1,0 +1,1128 @@
+{
+  "success": true,
+  "cart": {
+    "uuid": "b20ebf57-5fba-4e05-911e-bc787ad9d225",
+    "items": [
+      {
+        "uuid": "00f02ac8-0ffc-46cb-97f4-22e78bbe45ff",
+        "tour": {
+          "tax": [
+            {
+              "id": 1,
+              "title": "UAE Tax",
+              "tax_rules": [
+                {
+                  "id": 3,
+                  "priority": 2,
+                  "tax_rate": {
+                    "id": 1,
+                    "name": "VAT 5%",
+                    "rate": "5.00000000",
+                    "type": "Percentage"
+                  },
+                  "tax_rate_id": 1,
+                  "tax_class_id": 1
+                }
+              ],
+              "country_id": 231,
+              "description": "UAE Tax",
+              "country_name": "United Arab Emirates"
+            }
+          ],
+          "name": "Atlantis Water Park",
+          "uuid": "08d4dc01-00c7-4e4a-bb28-bfd8b703f994",
+          "price": "0.0000",
+          "permalink": "atlantis-water-park-day-pass-tickets",
+          "max_capacity": 100,
+          "activity_type": "tour",
+          "currency_code": "AED",
+          "currency_rate": "4.61759100",
+          "has_inventory": false,
+          "tourUtcOffset": "+04:00",
+          "featured_image": "https://api.jtrholidays.com/storage/3449/Atlantis-Water-Park-jtr-ft.jpg",
+          "approval_required": true,
+          "featured_image_thumb": "https://api.jtrholidays.com/storage/3449/conversions/Atlantis-Water-Park-jtr-ft-thumb.webp",
+          "has_terms_conditions": false
+        },
+        "coupon_codes": [],
+        "combo": null,
+        "cartVat": null,
+        "totalPax": 1,
+        "totalPrice": 75,
+        "widgets": [
+          {
+            "id": 218,
+            "name": "Calendar",
+            "uuid": "1bf9f71a-2ad8-4074-ab99-1251f1c96410",
+            "value": "2025-03-27",
+            "status": 1,
+            "settings": {
+              "id": "1bf9f71a-2ad8-4074-ab99-1251f1c96410",
+              "max": null,
+              "min": null,
+              "type": "date",
+              "uuid": "1bf9f71a-2ad8-4074-ab99-1251f1c96410",
+              "label": {
+                "en": "Select a Date"
+              },
+              "price": null,
+              "value": "2023-11-10T14:03:49.105Z",
+              "label2": {
+                "en": "Activity Date"
+              },
+              "fieldId": null,
+              "maxDate": null,
+              "minDate": null,
+              "show_price": false,
+              "defaultDate": 0,
+              "is_required": true,
+              "disabledDates": [],
+              "is_price_included": false
+            },
+            "system_name": "Calendar",
+            "discountPrice": 0,
+            "seperatePrice": 0
+          },
+          {
+            "id": 219,
+            "name": "Number",
+            "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+            "price": 145,
+            "value": 1,
+            "status": 1,
+            "quantity": 1,
+            "settings": {
+              "id": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+              "max": 100,
+              "min": 1,
+              "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+              "label": {
+                "en": "Adult"
+              },
+              "price": 0,
+              "value": 1,
+              "label2": {
+                "en": "Adult"
+              },
+              "fieldId": null,
+              "discount": null,
+              "supplier": null,
+              "suppliers": [],
+              "label_note": [],
+              "is_required": true,
+              "discountType": null,
+              "calendarArray": {
+                "disabledDates": [],
+                "availableDates": []
+              },
+              "discountPrice": null,
+              "is_price_included": false,
+              "showCalendarArray": false
+            },
+            "supplier": null,
+            "system_name": "Number",
+            "discountPrice": 75,
+            "seperatePrice": 0
+          },
+          {
+            "id": 220,
+            "name": "Number",
+            "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+            "price": 145,
+            "value": 0,
+            "status": 1,
+            "quantity": 0,
+            "settings": {
+              "id": "97477b1d-0e36-495b-901b-433984885b21",
+              "max": 50,
+              "min": 0,
+              "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+              "label": {
+                "en": "Child"
+              },
+              "value": 0,
+              "label2": {
+                "en": "Child"
+              },
+              "fieldId": null,
+              "discount": null,
+              "supplier": null,
+              "suppliers": [],
+              "label_note": {
+                "en": "(3 to 7 yrs)"
+              },
+              "is_required": false,
+              "discountType": null,
+              "calendarArray": {
+                "disabledDates": [],
+                "availableDates": []
+              },
+              "discountPrice": null,
+              "is_price_included": false,
+              "showCalendarArray": false
+            },
+            "supplier": null,
+            "system_name": "Number",
+            "discountPrice": 75,
+            "seperatePrice": 0
+          },
+          {
+            "id": 221,
+            "name": "Tour Options",
+            "uuid": "84ecf8a8-42d2-4b86-8175-48aabedabef7",
+            "value": "6be312d0-8074-4b46-80b0-acabcf7b3bc8",
+            "status": 1,
+            "settings": {
+              "id": "84ecf8a8-42d2-4b86-8175-48aabedabef7",
+              "uuid": "84ecf8a8-42d2-4b86-8175-48aabedabef7",
+              "options": [
+                {
+                  "pax": [
+                    {
+                      "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                      "label": {
+                        "en": "Adult"
+                      },
+                      "price": 320,
+                      "discount": 5,
+                      "supplier": "2f39f68b-5068-4417-9bb2-3ec30c973055",
+                      "discountType": false,
+                      "discountPrice": 315
+                    },
+                    {
+                      "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                      "label": {
+                        "en": "Child"
+                      },
+                      "price": 270,
+                      "discount": 5,
+                      "supplier": "30740ea3-20f2-4726-b8a8-eb0f50d950f7",
+                      "discountType": false,
+                      "discountPrice": 265
+                    }
+                  ],
+                  "uuid": "70c35d27-a447-4d9a-a898-1ee1aeb08fbf",
+                  "label": {
+                    "ar": null,
+                    "cn": null,
+                    "en": "Atlantis Aquaventure Day Pass",
+                    "ru": null
+                  },
+                  "contents": {
+                    "en": {
+                      "short_description": {
+                        "id": "short_description",
+                        "title": "Short Description",
+                        "content": "<p>Experience non-stop excitement with the Aquaventure Dubai Day Pass. Enjoy world-class water slides, the iconic Atlantis Leap of Faith, and serene private beaches. Perfect for a day of thrilling water adventures and relaxation.</p>"
+                      }
+                    }
+                  },
+                  "is_default": false,
+                  "option_ref": null,
+                  "orderNumber": 2,
+                  "calendarArray": {
+                    "min": "2024-10-24T15:30:39.937Z",
+                    "maxDate": "2025-06-10",
+                    "minDate": null,
+                    "disabledDates": [],
+                    "availableDates": [
+                      {
+                        "id": "2025-04-20",
+                        "end": "2025-04-20",
+                        "pax": [
+                          {
+                            "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                            "label": {
+                              "en": "Adult"
+                            },
+                            "price": 375,
+                            "discount": null,
+                            "supplier": "754bab47-c835-4863-8d1e-67775cccf6df",
+                            "discountType": true,
+                            "discountPrice": null
+                          },
+                          {
+                            "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                            "label": {
+                              "en": "Child"
+                            },
+                            "price": 320,
+                            "discount": null,
+                            "supplier": "24d90836-3246-42fd-bf82-31c22034821c",
+                            "discountType": true,
+                            "discountPrice": null
+                          }
+                        ],
+                        "date": "20 April, 2025",
+                        "note": null,
+                        "start": "2025-03-30"
+                      },
+                      {
+                        "id": "2025-06-08",
+                        "end": "2025-06-08",
+                        "pax": [
+                          {
+                            "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                            "label": {
+                              "en": "Adult"
+                            },
+                            "price": 375,
+                            "discount": null,
+                            "supplier": "5f22f5b7-e593-4314-8af9-32bc324b884e",
+                            "discountType": true,
+                            "discountPrice": null
+                          },
+                          {
+                            "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                            "label": {
+                              "en": "Child"
+                            },
+                            "price": 320,
+                            "discount": null,
+                            "supplier": "182f0cd3-5e15-4dfc-a285-7b49b1be857a",
+                            "discountType": true,
+                            "discountPrice": null
+                          }
+                        ],
+                        "date": "08 June, 2025",
+                        "note": null,
+                        "start": "2025-06-05"
+                      },
+                      {
+                        "repeat": {
+                          "paxes": [],
+                          "times": [
+                            {
+                              "timeslots": [],
+                              "weekdayNumber": 2
+                            },
+                            {
+                              "timeslots": [],
+                              "weekdayNumber": 3
+                            },
+                            {
+                              "timeslots": [],
+                              "weekdayNumber": 4
+                            },
+                            {
+                              "timeslots": [],
+                              "weekdayNumber": 5
+                            },
+                            {
+                              "timeslots": [],
+                              "weekdayNumber": 6
+                            },
+                            {
+                              "timeslots": [],
+                              "weekdayNumber": 7
+                            },
+                            {
+                              "timeslots": [],
+                              "weekdayNumber": 1
+                            }
+                          ],
+                          "weekdays": []
+                        }
+                      },
+                      {
+                        "id": "2025-04-20",
+                        "end": "2025-04-20",
+                        "pax": [
+                          {
+                            "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                            "label": {
+                              "en": "Adult"
+                            },
+                            "price": 375,
+                            "discount": null,
+                            "supplier": "754bab47-c835-4863-8d1e-67775cccf6df",
+                            "discountType": true,
+                            "discountPrice": null
+                          },
+                          {
+                            "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                            "label": {
+                              "en": "Child"
+                            },
+                            "price": 320,
+                            "discount": null,
+                            "supplier": "24d90836-3246-42fd-bf82-31c22034821c",
+                            "discountType": true,
+                            "discountPrice": null
+                          }
+                        ],
+                        "date": "20 April, 2025",
+                        "note": null,
+                        "start": "2025-03-30"
+                      },
+                      {
+                        "id": "2025-06-04",
+                        "end": "2025-06-04",
+                        "pax": [
+                          {
+                            "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                            "label": {
+                              "en": "Adult"
+                            },
+                            "price": 320,
+                            "discount": null,
+                            "supplier": "2ddeda93-9177-4db5-b6a5-ba9a4c679f14",
+                            "discountType": false,
+                            "discountPrice": null
+                          },
+                          {
+                            "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                            "label": {
+                              "en": "Child"
+                            },
+                            "price": 270,
+                            "discount": null,
+                            "supplier": "3f87d98c-beee-4a81-8a59-4ba39d51f52d",
+                            "discountType": false,
+                            "discountPrice": null
+                          }
+                        ],
+                        "date": "04 June, 2025",
+                        "note": null,
+                        "start": "2025-04-21"
+                      },
+                      {
+                        "id": "2025-06-08",
+                        "end": "2025-06-08",
+                        "pax": [
+                          {
+                            "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                            "label": {
+                              "en": "Adult"
+                            },
+                            "price": 375,
+                            "discount": null,
+                            "supplier": "5f22f5b7-e593-4314-8af9-32bc324b884e",
+                            "discountType": true,
+                            "discountPrice": null
+                          },
+                          {
+                            "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                            "label": {
+                              "en": "Child"
+                            },
+                            "price": 320,
+                            "discount": null,
+                            "supplier": "182f0cd3-5e15-4dfc-a285-7b49b1be857a",
+                            "discountType": true,
+                            "discountPrice": null
+                          }
+                        ],
+                        "date": "08 June, 2025",
+                        "note": null,
+                        "start": "2025-06-05"
+                      },
+                      {
+                        "id": "2025-07-04",
+                        "end": "2025-07-04",
+                        "pax": [
+                          {
+                            "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                            "label": {
+                              "en": "Adult"
+                            },
+                            "price": 320,
+                            "discount": null,
+                            "supplier": "2ddeda93-9177-4db5-b6a5-ba9a4c679f14",
+                            "discountType": false,
+                            "discountPrice": null
+                          },
+                          {
+                            "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                            "label": {
+                              "en": "Child"
+                            },
+                            "price": 270,
+                            "discount": null,
+                            "supplier": "3f87d98c-beee-4a81-8a59-4ba39d51f52d",
+                            "discountType": false,
+                            "discountPrice": null
+                          }
+                        ],
+                        "date": "04 July, 2025",
+                        "note": null,
+                        "start": "2025-06-26"
+                      },
+                      {
+                        "id": "2025-07-08",
+                        "end": "2025-07-08",
+                        "pax": [
+                          {
+                            "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                            "label": {
+                              "en": "Adult"
+                            },
+                            "price": 320,
+                            "discount": null,
+                            "supplier": "1ba20498-4e4d-4358-9b3f-c52225172465",
+                            "discountType": false,
+                            "discountPrice": null
+                          },
+                          {
+                            "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                            "label": {
+                              "en": "Child"
+                            },
+                            "price": 270,
+                            "discount": null,
+                            "supplier": "aed18a5a-c29d-420f-972e-4b637c13a66d",
+                            "discountType": false,
+                            "discountPrice": null
+                          }
+                        ],
+                        "date": "08 July, 2025",
+                        "note": null,
+                        "start": "2025-07-05"
+                      }
+                    ]
+                  },
+                  "show_on_frontend": true
+                },
+                {
+                  "pax": [
+                    {
+                      "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                      "label": {
+                        "en": "Adult"
+                      },
+                      "price": 370,
+                      "discount": 10,
+                      "supplier": "71ea1ba3-97c1-4054-8fac-60b4c2ae4674",
+                      "discountType": false,
+                      "discountPrice": 360
+                    },
+                    {
+                      "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                      "label": {
+                        "en": "Child"
+                      },
+                      "price": 320,
+                      "discount": 10,
+                      "supplier": "670ad966-1fe1-44e0-8f3b-eec8211e4fa1",
+                      "discountType": false,
+                      "discountPrice": 310
+                    }
+                  ],
+                  "uuid": "b6aa4b28-b4d6-448f-9bdf-5def67fec1fc",
+                  "label": {
+                    "ar": null,
+                    "cn": null,
+                    "en": "Atlantis Aquaventure Super Pass - (Aquaventure + Lost Chamber)",
+                    "ru": null
+                  },
+                  "contents": {
+                    "en": {
+                      "short_description": {
+                        "id": "short_description",
+                        "title": "Short Description",
+                        "content": "<p>Unlock ultimate fun with the Aquaventure Super Pass! Enjoy unlimited access to thrilling water slides, the Atlantis Leap of Faith, the Lost Chambers Aquarium, and pristine private beaches. Perfect for a full day of adventure and exploration.</p>"
+                      }
+                    }
+                  },
+                  "is_default": false,
+                  "option_ref": null,
+                  "orderNumber": 3,
+                  "calendarArray": {
+                    "min": "2024-10-24T15:30:58.318Z",
+                    "maxDate": "2025-06-10",
+                    "minDate": null,
+                    "disabledDates": [],
+                    "availableDates": [
+                      {
+                        "id": "2025-04-20",
+                        "end": "2025-04-20",
+                        "pax": [
+                          {
+                            "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                            "label": {
+                              "en": "Adult"
+                            },
+                            "price": 425,
+                            "discount": null,
+                            "supplier": "71ea1ba3-97c1-4054-8fac-60b4c2ae4674",
+                            "discountType": true,
+                            "discountPrice": null
+                          },
+                          {
+                            "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                            "label": {
+                              "en": "Child"
+                            },
+                            "price": 370,
+                            "discount": null,
+                            "supplier": "670ad966-1fe1-44e0-8f3b-eec8211e4fa1",
+                            "discountType": true,
+                            "discountPrice": null
+                          }
+                        ],
+                        "date": "20 April, 2025",
+                        "note": null,
+                        "start": "2025-03-30"
+                      },
+                      {
+                        "id": "2025-06-08",
+                        "end": "2025-06-08",
+                        "pax": [
+                          {
+                            "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                            "label": {
+                              "en": "Adult"
+                            },
+                            "price": 425,
+                            "discount": null,
+                            "supplier": "71ea1ba3-97c1-4054-8fac-60b4c2ae4674",
+                            "discountType": true,
+                            "discountPrice": null
+                          },
+                          {
+                            "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                            "label": {
+                              "en": "Child"
+                            },
+                            "price": 370,
+                            "discount": null,
+                            "supplier": "670ad966-1fe1-44e0-8f3b-eec8211e4fa1",
+                            "discountType": true,
+                            "discountPrice": null
+                          }
+                        ],
+                        "date": "08 June, 2025",
+                        "note": null,
+                        "start": "2025-06-05"
+                      }
+                    ]
+                  },
+                  "show_on_frontend": true
+                },
+                {
+                  "pax": [
+                    {
+                      "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                      "label": {
+                        "en": "Adult"
+                      },
+                      "price": 145,
+                      "discount": 70,
+                      "supplier": "6436f6d2-f9e4-45ee-9adc-fba037f39704",
+                      "discountType": null,
+                      "discountPrice": 75
+                    },
+                    {
+                      "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                      "label": {
+                        "en": "Child"
+                      },
+                      "price": 145,
+                      "discount": 70,
+                      "supplier": "9d0bfedc-1f72-4e38-8e32-437b8fb12439",
+                      "discountType": null,
+                      "discountPrice": 75
+                    }
+                  ],
+                  "uuid": "6be312d0-8074-4b46-80b0-acabcf7b3bc8",
+                  "label": {
+                    "en": "Atlantis the Lost Chamber Aquarium Ticket"
+                  },
+                  "contents": {
+                    "en": {
+                      "short_description": {
+                        "id": "short_description",
+                        "title": "Short Description",
+                        "content": "<ul>\n<li>Visit the incredible underwater world of The Lost Chambers Aquarium, home to over 65,000 marine animals that bring the ocean to life.</li>\n<li>Explore 21 unique marine exhibits on a journey through 14 fascinating chambers.</li>\n<li>Uncover the secrets of the deep, including the magnificent Ambassador Lagoon, an 11-million-litre aquarium showcasing a stunning array of marine life&mdash;perfect for the ultimate Instagram backdrop.</li>\n</ul>"
+                      }
+                    }
+                  },
+                  "is_default": true,
+                  "option_ref": null,
+                  "orderNumber": 1,
+                  "calendarArray": {
+                    "availableDates": []
+                  },
+                  "show_on_frontend": true
+                },
+                {
+                  "pax": [
+                    {
+                      "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                      "label": {
+                        "en": "Adult"
+                      },
+                      "price": 469,
+                      "discount": 30,
+                      "discountType": null,
+                      "discountPrice": 439
+                    },
+                    {
+                      "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                      "label": {
+                        "en": "Child"
+                      },
+                      "price": 439,
+                      "discount": 25,
+                      "discountType": null,
+                      "discountPrice": 414
+                    }
+                  ],
+                  "uuid": "1a851abc-5bbd-4c18-b8cc-039983f9141e",
+                  "label": {
+                    "en": "Atlantis Aquaventure Day Pass + Madame Tussauds Dubai Ticket"
+                  },
+                  "contents": {
+                    "en": {
+                      "short_description": {
+                        "id": "short_description",
+                        "title": "Short Description",
+                        "content": "<p>Enjoy a day of excitement with this combo! Dive into the thrills of Atlantis Aquaventure Waterpark with its exhilarating slides and attractions, then meet your favorite stars at Madame Tussauds Dubai. A perfect mix of water fun and celebrity encounters!</p>"
+                      }
+                    }
+                  },
+                  "is_default": false,
+                  "option_ref": null,
+                  "orderNumber": 4,
+                  "calendarArray": {
+                    "min": "2025-02-21T16:34:21.511Z",
+                    "maxDate": "2025-06-05",
+                    "disabledDates": [
+                      {
+                        "id": "2025-04-20",
+                        "end": "2025-04-20",
+                        "date": "20 April, 2025",
+                        "start": "2025-03-30"
+                      }
+                    ],
+                    "availableDates": []
+                  },
+                  "show_on_frontend": true
+                },
+                {
+                  "pax": [
+                    {
+                      "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                      "label": {
+                        "en": "Adult"
+                      },
+                      "price": 335,
+                      "discount": 5,
+                      "discountType": null,
+                      "discountPrice": 330
+                    },
+                    {
+                      "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                      "label": {
+                        "en": "Child"
+                      },
+                      "price": 305,
+                      "discount": 5,
+                      "discountType": null,
+                      "discountPrice": 300
+                    }
+                  ],
+                  "uuid": "5d141e9a-4e14-4808-b6a1-35a8fb577b0e",
+                  "label": {
+                    "en": "Atlantis Aquaventure Day Pass + Monorail One Way Gateway to Atlantis Ticket"
+                  },
+                  "contents": {
+                    "en": {
+                      "short_description": {
+                        "id": "short_description",
+                        "title": "Short Description",
+                        "content": "<p>Experience the best of Atlantis with this combo! Start your adventure with a scenic Monorail ride (one-way) to the Gateway to Atlantis, then enjoy a day full of thrills at the Aquaventure Waterpark. A perfect combination of travel and fun!</p>"
+                      }
+                    }
+                  },
+                  "is_default": false,
+                  "option_ref": null,
+                  "orderNumber": 5,
+                  "calendarArray": {
+                    "min": "2025-02-21T16:36:23.206Z",
+                    "maxDate": "2025-06-05",
+                    "disabledDates": [
+                      {
+                        "id": "2025-04-20",
+                        "end": "2025-04-20",
+                        "date": "20 April, 2025",
+                        "start": "2025-03-30"
+                      }
+                    ],
+                    "availableDates": []
+                  },
+                  "show_on_frontend": true
+                },
+                {
+                  "pax": [
+                    {
+                      "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                      "label": {
+                        "en": "Adult"
+                      },
+                      "price": 340,
+                      "discount": 10,
+                      "discountType": null,
+                      "discountPrice": 330
+                    },
+                    {
+                      "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                      "label": {
+                        "en": "Child"
+                      },
+                      "price": 310,
+                      "discount": 10,
+                      "discountType": null,
+                      "discountPrice": 300
+                    }
+                  ],
+                  "uuid": "208ff0b6-0cdf-464c-a243-0b00373a6676",
+                  "label": {
+                    "en": "Atlantis Aquaventure Day Pass + Monorail Round Trip Gateway to Atlantis Ticket"
+                  },
+                  "contents": {
+                    "en": {
+                      "short_description": {
+                        "id": "short_description",
+                        "title": "Short Description",
+                        "content": "<p>Make the most of your Atlantis visit with this round-trip combo! Enjoy a scenic round-trip Monorail ride to and from the Gateway to Atlantis, then dive into the excitement at Aquaventure Waterpark with a full day of thrilling slides, rides, and attractions. The perfect way to experience both land and water adventures!</p>"
+                      }
+                    }
+                  },
+                  "is_default": false,
+                  "option_ref": null,
+                  "orderNumber": 6,
+                  "calendarArray": {
+                    "min": "2025-02-21T16:36:53.241Z",
+                    "maxDate": "2025-06-05",
+                    "disabledDates": [
+                      {
+                        "id": "2025-04-20",
+                        "end": "2025-04-20",
+                        "date": "20 April, 2025",
+                        "start": "2025-03-30"
+                      }
+                    ],
+                    "availableDates": []
+                  },
+                  "show_on_frontend": true
+                },
+                {
+                  "pax": [
+                    {
+                      "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                      "label": {
+                        "en": "Adult"
+                      },
+                      "price": 560,
+                      "discount": 20,
+                      "discountType": null,
+                      "discountPrice": 540
+                    },
+                    {
+                      "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                      "label": {
+                        "en": "Child"
+                      },
+                      "price": 530,
+                      "discount": 20,
+                      "discountType": null,
+                      "discountPrice": 510
+                    }
+                  ],
+                  "uuid": "2318844b-fab3-4325-9bc4-5b9b8a2a5178",
+                  "label": {
+                    "en": "Atlantis Aquaventure Day Pass + Ski Dubai Snow Classic Ticket"
+                  },
+                  "contents": {
+                    "en": {
+                      "short_description": {
+                        "id": "short_description",
+                        "title": "Short Description",
+                        "content": "<p>Enjoy a day of thrills with this combo! Dive into the excitement at Atlantis Aquaventure Waterpark and then experience winter fun with the Ski Dubai Snow Classic Pass, including access to the Snow Park and activities. A perfect mix of water and snow adventures!</p>"
+                      }
+                    }
+                  },
+                  "is_default": false,
+                  "option_ref": null,
+                  "orderNumber": 7,
+                  "calendarArray": {
+                    "min": "2025-02-21T16:37:03.403Z",
+                    "maxDate": "2025-06-05",
+                    "disabledDates": [
+                      {
+                        "id": "2025-04-20",
+                        "end": "2025-04-20",
+                        "date": "20 April, 2025",
+                        "start": "2025-03-30"
+                      }
+                    ],
+                    "availableDates": []
+                  },
+                  "show_on_frontend": true
+                },
+                {
+                  "pax": [
+                    {
+                      "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                      "label": {
+                        "en": "Adult"
+                      },
+                      "price": 495,
+                      "discount": 20,
+                      "discountType": null,
+                      "discountPrice": 475
+                    },
+                    {
+                      "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                      "label": {
+                        "en": "Child"
+                      },
+                      "price": 465,
+                      "discount": 20,
+                      "discountType": null,
+                      "discountPrice": 445
+                    }
+                  ],
+                  "uuid": "449d0e30-881c-4441-8084-9404f66ecd30",
+                  "label": {
+                    "en": "Atlantis Aquaventure Day Pass + Green Planet Ticket"
+                  },
+                  "contents": {
+                    "en": {
+                      "short_description": {
+                        "id": "short_description",
+                        "title": "Short Description",
+                        "content": "<p>Experience two amazing attractions with this combo! Enjoy the thrilling Aquaventure Waterpark at Atlantis, then explore the lush wonders of the Green Planet, Dubai's indoor rainforest. A day full of adventure and nature!</p>"
+                      }
+                    }
+                  },
+                  "is_default": false,
+                  "option_ref": null,
+                  "orderNumber": 8,
+                  "calendarArray": {
+                    "min": "2025-02-21T16:37:17.365Z",
+                    "maxDate": "2025-06-05",
+                    "disabledDates": [
+                      {
+                        "id": "2025-04-20",
+                        "end": "2025-04-20",
+                        "date": "20 April, 2025",
+                        "start": "2025-03-30"
+                      }
+                    ],
+                    "availableDates": []
+                  },
+                  "show_on_frontend": true
+                },
+                {
+                  "pax": [
+                    {
+                      "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                      "label": {
+                        "en": "Adult"
+                      },
+                      "price": 415,
+                      "discount": 20,
+                      "discountType": null,
+                      "discountPrice": 395
+                    },
+                    {
+                      "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                      "label": {
+                        "en": "Child"
+                      },
+                      "price": 385,
+                      "discount": 20,
+                      "discountType": null,
+                      "discountPrice": 365
+                    }
+                  ],
+                  "uuid": "8fb0d89a-dd50-45d7-b0c9-fbcee1598952",
+                  "label": {
+                    "en": "Atlantis Aquaventure Day Pass + 3D Selfie Museum Ticket"
+                  },
+                  "contents": {
+                    "en": {
+                      "short_description": {
+                        "id": "short_description",
+                        "title": "Short Description",
+                        "content": "<p>Make your day unforgettable with this combo! Splash into fun at Atlantis Aquaventure Waterpark, then strike a pose at the 3D Selfie Museum, where you can interact with incredible optical illusions. A perfect mix of adventure and creativity!</p>"
+                      }
+                    }
+                  },
+                  "is_default": false,
+                  "option_ref": null,
+                  "orderNumber": 9,
+                  "calendarArray": {
+                    "min": "2025-02-21T16:37:31.167Z",
+                    "maxDate": "2025-06-05",
+                    "disabledDates": [
+                      {
+                        "id": "2025-04-20",
+                        "end": "2025-04-20",
+                        "date": "20 April, 2025",
+                        "start": "2025-03-30"
+                      }
+                    ],
+                    "availableDates": []
+                  },
+                  "show_on_frontend": true
+                },
+                {
+                  "pax": [
+                    {
+                      "uuid": "cd48a718-1686-49e8-8b1f-33472e6b9043",
+                      "label": {
+                        "en": "Adult"
+                      },
+                      "price": 430,
+                      "discount": 20,
+                      "discountType": null,
+                      "discountPrice": 410
+                    },
+                    {
+                      "uuid": "97477b1d-0e36-495b-901b-433984885b21",
+                      "label": {
+                        "en": "Child"
+                      },
+                      "price": 400,
+                      "discount": 20,
+                      "discountType": null,
+                      "discountPrice": 380
+                    }
+                  ],
+                  "uuid": "6b708ecb-4088-4ca5-8b44-e9dfc3b23bb0",
+                  "label": {
+                    "en": "Atlantis Aquaventure Day Pass + View at the Pam Non-Prime Ticket"
+                  },
+                  "contents": {
+                    "en": {
+                      "short_description": {
+                        "id": "short_description",
+                        "title": "Short Description",
+                        "content": "<p>Enjoy a thrilling day with this combo! Dive into the excitement at Atlantis Aquaventure Waterpark, then take in the stunning views from the Burj Khalifa&rsquo;s 124th &amp; 125th floors (non-prime hours). A perfect blend of adventure and breathtaking sights!</p>"
+                      }
+                    }
+                  },
+                  "is_default": false,
+                  "option_ref": null,
+                  "orderNumber": 10,
+                  "calendarArray": {
+                    "min": "2025-02-21T16:37:50.494Z",
+                    "maxDate": "2025-06-05",
+                    "disabledDates": [
+                      {
+                        "id": "2025-04-20",
+                        "end": "2025-04-20",
+                        "date": "20 April, 2025",
+                        "start": "2025-03-30"
+                      }
+                    ],
+                    "availableDates": []
+                  },
+                  "show_on_frontend": true
+                }
+              ],
+              "show_on_frontend": true
+            },
+            "system_name": "TourOptions",
+            "discountPrice": 0,
+            "seperatePrice": 0
+          },
+          {
+            "id": 560,
+            "name": "Private Transport",
+            "uuid": "c0f24e1d-d969-4406-ae9c-723308652979",
+            "price": 0,
+            "value": [],
+            "status": 1,
+            "quantity": 0,
+            "settings": {
+              "id": "c0f24e1d-d969-4406-ae9c-723308652979",
+              "note": {
+                "en": "within Dubai city hotels"
+              },
+              "uuid": "c0f24e1d-d969-4406-ae9c-723308652979",
+              "label": {
+                "en": "Private Two-Way Transportation"
+              },
+              "price": null,
+              "value": null,
+              "vehicles": [
+                {
+                  "cost": null,
+                  "image": "/backend/img/backend/vehicles/5-seats.png",
+                  "label": {
+                    "en": "Sedan/Minivan"
+                  },
+                  "price": 450,
+                  "capacity": 6,
+                  "discount": 0,
+                  "supplier": "c220d8e8-40ee-4f33-a274-5b1144f1319a",
+                  "discountType": "percentage",
+                  "discountPrice": 0
+                },
+                {
+                  "cost": null,
+                  "image": "/backend/img/backend/vehicles/15-seats.png",
+                  "label": {
+                    "en": "Mini Bus"
+                  },
+                  "price": 750,
+                  "capacity": 12,
+                  "discount": 0,
+                  "supplier": "1eb3d14c-333e-40b8-a903-2df291a6dfc5",
+                  "discountType": "percentage",
+                  "discountPrice": 0
+                },
+                {
+                  "cost": null,
+                  "image": "/backend/img/backend/vehicles/50-seats.png",
+                  "label": {
+                    "en": "Bus 30 Seater"
+                  },
+                  "price": 1250,
+                  "capacity": 30,
+                  "discount": 0,
+                  "supplier": "8e54c8b0-89f6-4899-ab60-dd500f190a41",
+                  "discountType": "percentage",
+                  "discountPrice": 0
+                },
+                {
+                  "cost": null,
+                  "image": "/backend/img/backend/vehicles/50-seats.png",
+                  "label": {
+                    "en": "Bus 50 Seater"
+                  },
+                  "price": 1450,
+                  "capacity": 50,
+                  "discount": 0,
+                  "supplier": "13f9c31f-875d-4af4-ae83-6dadaf2e2f3c",
+                  "discountType": "percentage",
+                  "discountPrice": 0
+                }
+              ],
+              "timeslots": [],
+              "is_required": false,
+              "is_selected": 0,
+              "showVehicles": false,
+              "showPickupTime": false,
+              "is_price_included": false,
+              "pickupLocationLabel": {
+                "en": "Pickup Location"
+              },
+              "vehicleIndividualSelection": true
+            },
+            "supplier": null,
+            "system_name": "PrivateTransport",
+            "discountPrice": 0,
+            "seperatePrice": 0
+          }
+        ],
+        "transportData": null,
+        "itemExpiryDateTime": "2025-03-27 23:59:59"
+      }
+    ]
+  }
+}
