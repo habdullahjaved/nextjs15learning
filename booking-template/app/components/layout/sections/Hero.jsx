@@ -29,7 +29,7 @@ export default function Hero() {
         {/* Image Section */}
         <div className="flex-1">
           <Image
-            src="/grocery-hero.png"
+            src="/images/grocery1.png"
             alt="Fresh groceries"
             width={500}
             height={500}

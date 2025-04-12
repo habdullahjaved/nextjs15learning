@@ -33,7 +33,7 @@ export default function Navbar() {
   const [profileOpen, setProfileOpen] = useState(false);
 
   return (
-    <header className="w-full shadow-md border-b text-sm">
+    <header className="w-full shadow-lg text-sm">
       {/* Topbar */}
       <div className="bg-gray-100 hidden md:flex justify-between px-6 py-2">
         <div className="space-x-4">
@@ -51,7 +51,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center px-4 py-4 md:px-6">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="Logo" className="w-10" />
+          <img src="/images/logo.png" alt="Logo" className="w-10" />
           <span className="text-2xl font-bold text-green-600">Green</span>
           <span className="text-2xl font-bold">Cart</span>
         </div>
@@ -103,7 +103,7 @@ export default function Navbar() {
       </div>
 
       {/* Desktop Nav */}
-      <nav className="hidden md:flex justify-center gap-8 border-t py-3 relative">
+      <nav className="hidden md:flex justify-center gap-8 shadow-sm py-3 relative">
         <Link href="#" className="hover:text-green-600">
           Home
         </Link>

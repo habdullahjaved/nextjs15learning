@@ -4,6 +4,11 @@ import Navbar from "./components/Navbar/Navbar";
 import Navbar1 from "./components/Navbar/Navbar1";
 import Dropdown from "./components/Navbar/Dropdown";
 import Hero from "./components/layout/sections/Hero";
+import Shop from "./components/layout/sections/Shop";
+import DealOfTheDay from "./components/layout/sections/DealOfTheDay";
+import WhyShopWithUs from "./components/layout/sections/WhyShopWithUs";
+import NewsletterCTA from "./components/layout/sections/NewsletterCTA";
+import Footer from "./components/layout/sections/Footer";
 export default function Home() {
   const cards = [
     { id: 1, title: "Card 1", description: "This is the first card." },
@@ -19,7 +24,13 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <div className="min-h-screen bg-gray-100 p-4">
+
+      <Shop />
+      <DealOfTheDay />
+      <WhyShopWithUs />
+      <NewsletterCTA />
+      <Footer />
+      {/* <div className="min-h-screen bg-gray-100 p-4">
         <h1 className="text-2xl font-bold text-center mb-6">
           Responsive Cards
         </h1>
@@ -30,9 +41,9 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
-      <div className="min-h-screen bg-gray-100 p-4">
+      {/* <div className="min-h-screen bg-gray-100 p-4">
         <h2 className="text-2xl font-bold text-center mb-6">
           Responsive Profile Card
         </h2>
@@ -63,7 +74,7 @@ export default function Home() {
         </div>
 
         <Dropdown />
-      </div>
+      </div> */}
     </>
   );
 }
