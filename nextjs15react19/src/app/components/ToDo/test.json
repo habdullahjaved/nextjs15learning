@@ -1,0 +1,60 @@
+{
+  "uuid": "cd37f204-eb11-46cc-9780-79be2ac07386",
+  "items": [
+    {
+      "id": 5,
+      "cart_id": 2,
+      "tour_id": 62,
+      "package_id": 12,
+      "timeslot_id": 8,
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "quantity": 1,
+      "total_price": "250.00",
+      "tour": {
+        "id": 62,
+        "title": "Marina Cruise Tour",
+        "slug": "marina-cruise-tour",
+        "description": "<h2>Marina Dhow Cruise</h2><p>Marina Dhow Cruise Marina Dhow Cruise Marina Dhow Cruise </p><p>Marina Dhow Cruise</p>",
+        "featured_image": null,
+        "package": {
+          "id": 12,
+          "tour_id": 62,
+          "title": "Marina 2 Hour Dinner Cruise",
+          "timeslot": {
+            "id": 8,
+            "time": "19:00-21:00",
+            "package_pricings": [
+              {
+                "timeslot_id": 8,
+                "pax_type_id": 1,
+                "base_price": "250.0000",
+                "discount": "0.0000",
+                "discounted_price": "250.0000"
+              },
+              {
+                "timeslot_id": 8,
+                "pax_type_id": 2,
+                "base_price": "200.0000",
+                "discount": "0.0000",
+                "discounted_price": "200.0000"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "tour_id": 62,
+      "package_id": 11,
+      "timeslot_id": 7,
+      "quantity": 5,
+      "price": "90.0000",
+      "adults": 3,
+      "children": 2,
+      "infants": 0,
+      "activity_date": "2025-03-21"
+    }
+  ]
+}
