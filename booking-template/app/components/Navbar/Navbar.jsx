@@ -37,13 +37,13 @@ export default function Navbar() {
       {/* Topbar */}
       <div className="bg-gray-100 hidden md:flex justify-between px-6 py-2">
         <div className="space-x-4">
-          <Link href="#">Seller Center</Link>
-          <Link href="#">Register Seller</Link>
+          <Link href="#">+971000000000</Link>
+          <Link href="#">email@email.com</Link>
         </div>
         <div className="space-x-4">
-          <Link href="#">Help & Contact</Link>
-          <Link href="#">Order Tracking</Link>
-          <span>🇺🇸</span>
+          <Link href="#">Facebook</Link>
+          <Link href="#">Instagram</Link>
+          {/* <span>🇺🇸</span> */}
         </div>
       </div>
 

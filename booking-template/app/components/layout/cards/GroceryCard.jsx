@@ -3,6 +3,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import TimeSlotPicker from "../Inputs/TimeSlotPicker";
 
 export default function GroceryCard({ title, price, imageUrl, slug }) {
   return (
@@ -21,6 +22,10 @@ export default function GroceryCard({ title, price, imageUrl, slug }) {
           </button>
         </div>
       </Link>
+
+      {/* <div className="p-4">
+        <TimeSlotPicker />
+      </div> */}
     </div>
   );
 }
