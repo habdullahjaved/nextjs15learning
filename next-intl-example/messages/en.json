@@ -1,0 +1,22 @@
+{
+  "NavbarLinks": {
+    "home": "Home",
+    "homeTitle": "Bus Rental Dubai",
+    "about": "About",
+    "aboutTitle": "About page",
+    "profile": "Profile",
+    "profileTitle": "Profile page"
+  },
+  "HomePage": {
+    "title": "Buses Dubai",
+    "description": "Rent a luxury bus in Dubai easily.",
+    "currentLocale": "English"
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "We are a leading bus rental company in Dubai, providing luxury and comfortable bus rental services."
+  },
+  "ProfilePage": {
+    "title": "Profile"
+  }
+}

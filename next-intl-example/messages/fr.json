@@ -1,0 +1,22 @@
+{
+  "NavbarLinks": {
+    "home": "Accueil",
+    "homeTitle": "Page d'accueil",
+    "about": "À propos",
+    "aboutTitle": "Page d'à propos",
+    "profile": "Profil",
+    "profileTitle": "Page de profil"
+  },
+  "HomePage": {
+    "title": "Location de bus à Dubaï",
+    "description": "Louez facilement un bus de luxe à Dubaï.",
+    "currentLocale": "Français"
+  },
+  "AboutPage": {
+    "title": "À propos",
+    "description": "Nous sommes une entreprise de location de bus leader à Dubaï, offrant des services de location de bus de luxe et confortables."
+  },
+  "ProfilePage": {
+    "title": "Profil"
+  }
+}
