@@ -1,7 +1,7 @@
 import {useLocale, useTranslations} from 'next-intl';
 
-export default function About() {
-  const t = useTranslations('AboutPage');
+export default function Index() {
+  const t = useTranslations('HomePage');
   const locale = useLocale();
 
   return (
@@ -11,6 +11,8 @@ export default function About() {
           <h1 className="text-3xl font-bold">{t('title')}</h1>
         </div>
         <p className="text-lg mt-4">{t('description')}</p>
+
+        <p className="text-lg mt-4">{t('currentLocale', {locale})}</p>
       </div>
     </>
   );
