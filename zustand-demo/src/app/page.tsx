@@ -4,6 +4,7 @@ import {
   dehydrate,
 } from "@tanstack/react-query";
 import UserList from "@/components/UserList";
+import Counter from "@/components/Counter";
 
 // Move this outside so it's shared
 const fetchUsers = async () => {
@@ -21,8 +22,14 @@ export default async function HomePage() {
   });
 
   return (
-    <HydrationBoundary state={dehydrate(queryClient)}>
-      <UserList />
-    </HydrationBoundary>
+    <>
+      {/* <HydrationBoundary state={dehydrate(queryClient)}>
+        <UserList />
+      </HydrationBoundary> */}
+
+      <div className="h-full">
+        <Counter />
+      </div>
+    </>
   );
 }
