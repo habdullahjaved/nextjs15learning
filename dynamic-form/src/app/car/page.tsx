@@ -1,5 +1,6 @@
 import React from "react";
 import CarCard from "../crud/components/CardCard";
+import CarCardV2 from "../crud/components/CarCardV2";
 
 const page = () => {
   return (
@@ -26,6 +27,17 @@ const page = () => {
         price="AED 1,200/day"
       />
       <CarCard
+        images={[
+          "/cars/mercedes1.jpg",
+          "/cars/mercedes2.jpg",
+          "/cars/mercedes3.jpg",
+        ]}
+        title="Mercedes-Benz G63 AMG"
+        specs="V8 Engine, 577 hp, AWD"
+        price="AED 1,200/day"
+      />
+
+      <CarCardV2
         images={[
           "/cars/mercedes1.jpg",
           "/cars/mercedes2.jpg",

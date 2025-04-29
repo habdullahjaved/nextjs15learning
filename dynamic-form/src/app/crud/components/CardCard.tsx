@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react"; // Lucide Icons
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface CarCardProps {
   images: string[];
@@ -17,9 +17,9 @@ const CarCard: React.FC<CarCardProps> = ({ images, title, specs, price }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 5000); // 5 seconds
+    }, 5000);
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval);
   }, [images.length]);
 
   const nextImage = () => {
@@ -28,6 +28,10 @@ const CarCard: React.FC<CarCardProps> = ({ images, title, specs, price }) => {
 
   const prevImage = () => {
     setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  const goToImage = (index: number) => {
+    setCurrentImage(index);
   };
 
   return (
@@ -57,13 +61,33 @@ const CarCard: React.FC<CarCardProps> = ({ images, title, specs, price }) => {
             </button>
           </>
         )}
+
+        {/* Dots under image */}
+        <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
+          {images.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToImage(index)}
+              className={`w-2.5 h-2.5 rounded-full ${
+                currentImage === index ? "bg-primary" : "bg-gray-300"
+              }`}
+            />
+          ))}
+        </div>
       </div>
 
       {/* Details Section */}
-      <div className="p-4 space-y-1">
-        <h3 className="text-lg font-bold text-gray-800">{title}</h3>
-        <p className="text-sm text-gray-500">{specs}</p>
-        <div className="text-primary font-semibold text-xl">{price}</div>
+      <div className="p-4 flex flex-col space-y-2">
+        <div>
+          <h3 className="text-lg font-bold text-gray-800">{title}</h3>
+          <p className="text-sm text-gray-500">{specs}</p>
+          <div className="text-primary font-semibold text-xl">{price}</div>
+        </div>
+
+        {/* Book Now Button */}
+        <button className="mt-2 bg-primary hover:bg-indigo-600 text-white text-sm py-2 px-4 rounded-full transition">
+          Book Now
+        </button>
       </div>
     </div>
   );

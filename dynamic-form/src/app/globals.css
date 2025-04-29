@@ -1,4 +1,20 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes fill-bar {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  .animate-fill-bar {
+    animation: fill-bar 5s linear forwards;
+  }
+}
 
 :root {
   --background: #ffffff;
