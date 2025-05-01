@@ -1,5 +1,3 @@
-import Sidebar from '@/components/layouts/Sidebar';
-import SidebarV2 from '@/components/layouts/SidebarV2';
 import SidebarV3 from '@/components/layouts/SidebarV3';
 import React, {ReactNode} from 'react';
 

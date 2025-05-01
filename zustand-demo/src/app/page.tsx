@@ -5,6 +5,7 @@ import {
 } from "@tanstack/react-query";
 import UserList from "@/components/UserList";
 import Counter from "@/components/Counter";
+import TestForm from "@/components/TestForm";
 
 // Move this outside so it's shared
 const fetchUsers = async () => {
@@ -29,6 +30,10 @@ export default async function HomePage() {
 
       <div className="h-full">
         <Counter />
+      </div>
+
+      <div>
+        <TestForm />
       </div>
     </>
   );
