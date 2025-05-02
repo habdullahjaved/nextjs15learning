@@ -60,10 +60,23 @@ export default function RichTextEditorV2({ value, onChange }: Props) {
       }),
       Blockquote,
     ],
+    //  editorProps: {
+    //    attributes: {
+    //      class:
+    //        "prose prose-sm sm:prose lg:prose-lg xl:prose-xl focus:outline-none min-h-[250px] max-w-none p-4",
+    //    },
+    //  },
     editorProps: {
       attributes: {
-        class:
-          "prose prose-sm sm:prose lg:prose-lg xl:prose-xl focus:outline-none min-h-[250px] max-w-none p-4",
+        class: [
+          "prose prose-sm sm:prose lg:prose-lg xl:prose-xl",
+          "focus:outline-none min-h-[250px] max-w-none p-4",
+          "prose-headings:text-gray-800",
+          "prose-a:text-blue-600 hover:prose-a:text-blue-800",
+          "prose-img:rounded-lg",
+          "prose-blockquote:border-l-4 prose-blockquote:border-gray-300",
+          "prose-code:before:content-[''] prose-code:after:content-['']",
+        ].join(" "),
       },
     },
     onUpdate: ({ editor }) => {

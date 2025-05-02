@@ -1,5 +1,6 @@
 @import "tailwindcss";
-/* Add to global.css or tailwind base layer */
+
+/* Direct styles (no @apply needed) */
 .ProseMirror img {
   max-width: 100%;
   height: auto;
@@ -11,6 +12,23 @@
   outline: none;
 }
 
+/* For nested styles, use this structure */
+.ProseMirror {
+  & h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  & h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  & a {
+    color: #2563eb;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;

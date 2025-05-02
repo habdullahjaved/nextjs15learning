@@ -6,6 +6,9 @@ import {
 import UserList from "@/components/UserList";
 import Counter from "@/components/Counter";
 import TestForm from "@/components/TestForm";
+import TestFormBuilder from "@/components/Forms/TestFormBuilder";
+import ExampleForm from "@/components/Forms/ExampleForm";
+import BlogForm from "@/components/Forms/BlogForm";
 
 // Move this outside so it's shared
 const fetchUsers = async () => {
@@ -33,7 +36,12 @@ export default async function HomePage() {
       </div>
 
       <div>
-        <TestForm />
+        {/* <TestForm /> */}
+        {/* <ExampleForm /> */}
+
+        <BlogForm />
+
+        {/* <TestFormBuilder /> */}
       </div>
     </>
   );
