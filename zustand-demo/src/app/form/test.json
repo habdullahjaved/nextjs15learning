@@ -1,0 +1,39 @@
+{
+  "page": {
+    "slug": "home",
+    "layout": "default",
+    "sections": [
+      {
+        "layout_type": "2-columns",
+        "position": "top",
+        "config": {
+          "image_placement": "left"
+        },
+        "content": {
+          "en": {
+            "title": "Welcome",
+            "description": "Book your bus today"
+          },
+          "ar": {
+            "title": "أهلاً بك",
+            "description": "احجز الحافلة الآن"
+          }
+        },
+        "widgets": [
+          {
+            "type": "button",
+            "config": {
+              "style": "primary",
+              "action": "navigate",
+              "target": "/booking"
+            },
+            "content": {
+              "en": "Book Now",
+              "ar": "احجز الآن"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
