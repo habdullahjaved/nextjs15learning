@@ -41,7 +41,8 @@ export default function TodoForm({
   };
 
   return (
-    <div className="w-full max-w-lg mx-auto bg-white p-4 rounded shadow-2xl ">
+    <div className="w-full max-w-lg mx-auto bg-white p-4 rounded-lg shadow-[-2px_-2px_4px_rgba(91,99,255,0.4),_2px_2px_4px_rgba(91,99,255,0.4)] ">
+      {/* <div className="w-full max-w-lg mx-auto bg-white p-4 rounded drop-shadow-[4px_0_10px_rgba(0,0,0,0.1)] drop-shadow-[-4px_0_10px_rgba(0,0,0,0.1)]"></div> */}
       <DynamicForm
         fields={fields}
         initialValues={initialValues}
