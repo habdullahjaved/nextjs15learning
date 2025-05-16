@@ -37,6 +37,7 @@ export default function FeatureSelector() {
           className="w-full"
           creatable={false}
         />
+        {/* this how it can be used  */}
 
         <div className="text-sm text-gray-500">
           {selectedFeatures.length} features selected
