@@ -1,0 +1,13 @@
+{
+  "Home": {
+    "language": "اللغة",
+    "hello": "مرحبا",
+    "changeLanguage": "تغيير اللغة"
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "Manifest": {
+    "name": "next-intl example"
+  }
+}

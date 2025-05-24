@@ -1,0 +1,13 @@
+{
+  "Home": {
+    "language": "Language",
+    "hello": "Hello",
+    "changeLanguage": "Change Language"
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "Manifest": {
+    "name": "next-intl example"
+  }
+}
